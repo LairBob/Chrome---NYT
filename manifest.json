@@ -1,11 +1,11 @@
 {
   "name": "LairBob's NYT Extension",
-  "version": "0.0.1.3",
+  "version": "0.0.1.15",
   "description": "First attempt to modify all the anchors on NYT.com",
   "content_scripts": [
 	  {
 	    "matches": ["http://*.nytimes.com/*"],
-	    "js": ["content_script.js"]
+	    "js": ["nyt_content_script.js"]
 	  }
   ]
 }
